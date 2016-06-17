@@ -31,7 +31,6 @@
 		84E7847B1CB6355600D9B775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7847A1CB6355600D9B775 /* AppDelegate.m */; };
 		84E7847E1CB6355600D9B775 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7847D1CB6355600D9B775 /* ViewController.m */; };
 		84E784811CB6355600D9B775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E7847F1CB6355600D9B775 /* Main.storyboard */; };
-		84E784841CB6355600D9B775 /* zciotRequestOC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E784821CB6355600D9B775 /* zciotRequestOC.xcdatamodeld */; };
 		84E784861CB6355600D9B775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E784851CB6355600D9B775 /* Assets.xcassets */; };
 		84E784891CB6355600D9B775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E784871CB6355600D9B775 /* LaunchScreen.storyboard */; };
 		84E784941CB6355600D9B775 /* zciotRequestOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E784931CB6355600D9B775 /* zciotRequestOCTests.m */; };
@@ -128,7 +127,6 @@
 		84E7847C1CB6355600D9B775 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84E7847D1CB6355600D9B775 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84E784801CB6355600D9B775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84E784831CB6355600D9B775 /* zciotRequestOC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zciotRequestOC.xcdatamodel; sourceTree = "<group>"; };
 		84E784851CB6355600D9B775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E784881CB6355600D9B775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E7848A1CB6355600D9B775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -354,7 +352,6 @@
 				84E784871CB6355600D9B775 /* LaunchScreen.storyboard */,
 				84CCA58F1CEAB5E900C590E3 /* Property List.plist */,
 				84E7848A1CB6355600D9B775 /* Info.plist */,
-				84E784821CB6355600D9B775 /* zciotRequestOC.xcdatamodeld */,
 				84E784761CB6355600D9B775 /* Supporting Files */,
 			);
 			path = zciotRequestOC;
@@ -782,7 +779,6 @@
 				84E7850A1CB64D2900D9B775 /* PublicCell.m in Sources */,
 				8470A7A61CE3257F00D784F7 /* ZReachability.m in Sources */,
 				84E784781CB6355600D9B775 /* main.m in Sources */,
-				84E784841CB6355600D9B775 /* zciotRequestOC.xcdatamodeld in Sources */,
 				84E784E91CB63DAA00D9B775 /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1045,16 +1041,6 @@
 				84DF57C81CEC376200F96068 /* zciotRequestOC.xcdatamodel */,
 			);
 			currentVersion = 84DF57C81CEC376200F96068 /* zciotRequestOC.xcdatamodel */;
-			path = zciotRequestOC.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		84E784821CB6355600D9B775 /* zciotRequestOC.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				84E784831CB6355600D9B775 /* zciotRequestOC.xcdatamodel */,
-			);
-			currentVersion = 84E784831CB6355600D9B775 /* zciotRequestOC.xcdatamodel */;
 			path = zciotRequestOC.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
