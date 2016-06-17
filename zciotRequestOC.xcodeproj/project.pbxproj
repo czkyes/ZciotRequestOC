@@ -19,7 +19,6 @@
 		84CCA5901CEAB5E900C590E3 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84CCA58F1CEAB5E900C590E3 /* Property List.plist */; settings = {ASSET_TAGS = (); }; };
 		84CCA5931CEAB9F800C590E3 /* LXDGameRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CCA5921CEAB9F800C590E3 /* LXDGameRecord.m */; settings = {ASSET_TAGS = (); }; };
 		84DF576B1CEC129200F96068 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF576A1CEC129200F96068 /* ViewController1.m */; settings = {ASSET_TAGS = (); }; };
-		84DF57C91CEC376200F96068 /* zciotRequestOC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DF57C71CEC376200F96068 /* zciotRequestOC.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
 		84DF57CE1CEC379F00F96068 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF57CB1CEC379F00F96068 /* Person+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
 		84DF57CF1CEC379F00F96068 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF57CD1CEC379F00F96068 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 		84DF86901CB7A0A10041E8AE /* AFdanli.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF868F1CB7A0A10041E8AE /* AFdanli.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -104,7 +103,6 @@
 		84CCA5911CEAB9F800C590E3 /* LXDGameRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDGameRecord.h; sourceTree = "<group>"; };
 		84CCA5921CEAB9F800C590E3 /* LXDGameRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDGameRecord.m; sourceTree = "<group>"; };
 		84DF576A1CEC129200F96068 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
-		84DF57C81CEC376200F96068 /* zciotRequestOC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zciotRequestOC.xcdatamodel; sourceTree = "<group>"; };
 		84DF57CA1CEC379F00F96068 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
 		84DF57CB1CEC379F00F96068 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
 		84DF57CC1CEC379F00F96068 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -412,7 +410,6 @@
 				84E785051CB6485700D9B775 /* PublicModel.m */,
 				84CCA5911CEAB9F800C590E3 /* LXDGameRecord.h */,
 				84CCA5921CEAB9F800C590E3 /* LXDGameRecord.m */,
-				84DF57C71CEC376200F96068 /* zciotRequestOC.xcdatamodeld */,
 				84DF57CA1CEC379F00F96068 /* Person+CoreDataProperties.h */,
 				84DF57CB1CEC379F00F96068 /* Person+CoreDataProperties.m */,
 				84DF57CC1CEC379F00F96068 /* Person.h */,
@@ -765,7 +762,6 @@
 				8470A7FF1CE330DD00D784F7 /* NetWorkingUtil.m in Sources */,
 				84E784F51CB63DAA00D9B775 /* UIButton+AFNetworking.m in Sources */,
 				84E784F61CB63DAA00D9B775 /* UIImageView+AFNetworking.m in Sources */,
-				84DF57C91CEC376200F96068 /* zciotRequestOC.xcdatamodeld in Sources */,
 				84E784FF1CB644FD00D9B775 /* ViewModelClass.m in Sources */,
 				84E784B31CB637ED00D9B775 /* zciotNetRequest.m in Sources */,
 				84E784E81CB63DAA00D9B775 /* AFHTTPRequestOperationManager.m in Sources */,
@@ -1033,19 +1029,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		84DF57C71CEC376200F96068 /* zciotRequestOC.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				84DF57C81CEC376200F96068 /* zciotRequestOC.xcdatamodel */,
-			);
-			currentVersion = 84DF57C81CEC376200F96068 /* zciotRequestOC.xcdatamodel */;
-			path = zciotRequestOC.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 84E7846B1CB6355600D9B775 /* Project object */;
 }
